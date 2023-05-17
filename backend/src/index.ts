@@ -5,6 +5,9 @@ import path from "path";
 import {fileURLToPath} from "url";
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
+import userRoute from "./routes/user.route.js";
+import pulseRoute from "./routes/pulse.route.js";
+import feedBackRoute from "./routes/feedBack.route.js";
 
 const app = express();
 
@@ -29,6 +32,10 @@ const connect = async () => {
 app.use(cors({origin: 'http://127.0.0.1:5173', credentials: true}));
 app.use(express.json());
 app.use(cookieParser());
+
+app.use('/api/auth', userRoute);
+app.use('/api/pulse', pulseRoute);
+app.use('/api/feedback', feedBackRoute);
 
 app.listen(process.env.PORT, () => {
     connect();
