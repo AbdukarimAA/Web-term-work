@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-right: 1px solid gray;
+    padding: 10px;
+}
+
+.nav .brand {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.nav .nav-item {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
