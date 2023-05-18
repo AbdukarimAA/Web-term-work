@@ -1,0 +1,40 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section .section-header {
+    text-align: center;
+    margin: 10px;
+    background-color: red;
+    height: 10%;
+    width: 90%;
+}
+
+.section .section-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    background-color: red;
+    height: 80%;
+    width: 90%;
+}
+
+.section .section-article .section-article-left img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.section .section-footer {
+    text-align: center;
+    margin: 10px;
+    background-color: red;
+    height: 10%;
+    width: 90%;
+}
