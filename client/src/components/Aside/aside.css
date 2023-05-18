@@ -2,8 +2,9 @@ aside form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-left: 1px solid gray;
+    border: 1px solid gray;
     padding: 10px;
+    height: 100%;
 }
 
 aside form input {
@@ -30,4 +31,23 @@ aside form button:hover {
 
 aside form span {
     color: dodgerblue;
+}
+
+@media (max-width: 1025px) {
+    aside form input {
+        margin: 15px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 15px;
+        padding: 10px;
+        height: 40px;
+        width: 100%;
+    }
+
+    aside form button {
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        transition: 0.3s all ease;
+    }
 }

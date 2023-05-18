@@ -2,3 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

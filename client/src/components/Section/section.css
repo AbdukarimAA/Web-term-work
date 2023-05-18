@@ -3,26 +3,31 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    border: 1px solid gray;
+    row-gap: 30px;
     overflow: auto;
     height: 497px;
+    padding: 10px;
+}
+
+.section .section-wrapper {
+    padding: 5px;
+    border: 1px solid gray;
+    height: min-content;
 }
 
 .section .section-header {
     text-align: center;
     margin: 10px;
-    height: 10%;
-    width: 90%;
+
 }
 
 .section .section-article {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px;
-    height: 80%;
-    width: 90%;
 }
 
 .section .section-article .section-article-left img {
@@ -36,6 +41,5 @@
     flex-direction: column;
     text-align: center;
     margin: 10px;
-    height: 10%;
-    width: 90%;
+
 }
