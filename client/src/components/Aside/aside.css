@@ -1,4 +1,4 @@
-aside {
+aside form {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -6,7 +6,7 @@ aside {
     padding: 10px;
 }
 
-aside input {
+aside form input {
     margin: 15px;
     border: 2px solid black;
     border-radius: 15px;
@@ -16,18 +16,18 @@ aside input {
     width: 100%;
 }
 
-aside button {
+aside form button {
     width: 100px;
     height: 40px;
     border-radius: 10px;
     transition: 0.3s all ease;
 }
 
-aside button:hover {
+aside form button:hover {
     cursor: pointer;
     background-color: dodgerblue;
 }
 
-aside span {
+aside form span {
     color: dodgerblue;
 }

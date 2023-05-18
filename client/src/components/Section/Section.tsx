@@ -18,7 +18,8 @@ const Section = ({data}: any) => {
                   </div>
               </div>
               <div className="section-footer">
-                  footer
+                  <span>Цена: {item.price}</span>
+                  <span>Брэнд: {item.brand}</span>
               </div>
           </>)}
       </section>
