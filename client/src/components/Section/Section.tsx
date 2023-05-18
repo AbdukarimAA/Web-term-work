@@ -1,7 +1,9 @@
 import React from "react";
 import './section.css'
 
-const Section = () => {
+const Section = ({data}: any) => {
+
+    console.log(data)
   return (
       <section className='section'>
           <div className="section-header">

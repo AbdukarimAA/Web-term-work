@@ -8,7 +8,6 @@
 .section .section-header {
     text-align: center;
     margin: 10px;
-    background-color: red;
     height: 10%;
     width: 90%;
 }
@@ -20,7 +19,6 @@
     align-items: center;
     text-align: center;
     margin: 10px;
-    background-color: red;
     height: 80%;
     width: 90%;
 }
@@ -34,7 +32,6 @@
 .section .section-footer {
     text-align: center;
     margin: 10px;
-    background-color: red;
     height: 10%;
     width: 90%;
 }
