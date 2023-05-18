@@ -28,7 +28,7 @@
 .section .section-article .section-article-left img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .section .section-footer {
