@@ -1,4 +1,14 @@
 footer {
     border-top: 1px solid gray;
+    position: relative;
+}
 
+.copyright {
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 0px;
+    background-color: dodgerblue;
+    color: #fff;
+    padding:10px;
 }
