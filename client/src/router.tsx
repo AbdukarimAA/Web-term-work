@@ -5,14 +5,16 @@ import {
   Routes,
 } from "react-router-dom";
 import App from "./components/App/App";
+import Login from "./pages/login/Login";
+import Register from "./pages/register/Register";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Routes>
+    <Route>
       <Route element={<App />} path={"/"} />
-      <Route element={} path={"/authorize"} />
-      <Route element={} path={"/register"} />
-    </Routes>
+      <Route element={<Login />} path={"/authorize"} />
+      <Route element={<Register />} path={"/register"} />
+    </Route>
   )
 );
 
